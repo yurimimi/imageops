@@ -1,0 +1,20 @@
+[build-system]
+requires = ['setuptools']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "imageops"
+version = "0.0.1"
+dependencies = [
+    "scikit-image",
+]
+readme = "README.md"
+keywords = ["image processing", "utility"]
+license = {file = "LICENSE"}
+authors = [
+  {name = "Yuri Klar", email = "juri.klar@outlook.com"},
+]
+
+[project.urls]
+Repository = "https://github.com/yurimimi/imageops.git"
+Issues = "https://github.com/yurimimi/imageops/issues"
