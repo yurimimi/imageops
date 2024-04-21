@@ -40,10 +40,9 @@ def _parse_crop_args(crop_args_str: str) -> list[int]:
     return crop_args
 
 
-def crop_image(image, crop_args) -> np.ndarray:
+def crop_image(image, crop_args: str) -> np.ndarray:
 
 	# Get crop args
-    crop_args = _parse_crop_args(crop_args)
     top, right, bottom, left = _parse_crop_args(crop_args)
 	# @todo Check if crop isn't egative
     # y axis top, down
