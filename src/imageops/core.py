@@ -2,7 +2,7 @@
 """
 import logging
 import numpy as np
-from skimage.util import crop
+from util import crop
 
 
 logger = logging.getLogger(__name__)

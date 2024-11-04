@@ -6,7 +6,7 @@ build-backend = 'setuptools.build_meta'
 name = "imageops"
 version = "0.0.1"
 dependencies = [
-    "scikit-image",
+    "numpy",
 ]
 readme = "README.md"
 keywords = ["image processing", "utility"]
